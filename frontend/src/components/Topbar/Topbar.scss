@@ -1,0 +1,41 @@
+.topbar {
+  backface-visibility: hidden;
+  background-color: #16202B;
+  left: 0;
+  padding: 8px 16px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9000;
+}
+
+.topbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar__logo {
+  display: inline-block;
+  height: 40px;
+}
+.topbar__title {
+  font-size: 3rem;
+  padding-bottom: 5px;
+}
+
+.topbar__group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.topbar__search {
+  height: 30px;
+  width: 100%;
+  max-width: 250px;
+  margin-left: 10px;
+  color: #16202B
+}
+
+
+
