@@ -1,0 +1,299 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "year": "2014",
+      "title": "Guardians of the Galaxy",
+      "rating": "8.1",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "director": "James Gunn",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe."
+    },
+    {
+      "id": "2",
+      "year": "2012",
+      "title": "Prometheus",
+      "rating": "7",
+      "genre": [
+        "Adventure",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "director": "Ridley Scott",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "Following clues to the origin of mankind, a team finds a structure on a distant moon, but they soon realize they are not alone."
+    },
+    {
+      "id": "3",
+      "year": "2016",
+      "title": "Split",
+      "rating": "7.3",
+      "genre": [
+        "Horror",
+        "Thriller"
+      ],
+      "director": "M. Night Shyamalan",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "Three girls are kidnapped by a man with a diagnosed 23 distinct personalities. They must try to escape before the apparent emergence of a frightful new 24th."
+    },
+    {
+      "id": "4",
+      "year": "2016",
+      "title": "Sing",
+      "rating": "7.2",
+      "genre": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "director": "Christophe Lourdelet",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "In a city of humanoid animals, a hustling theater impresario's attempt to save his theater with a singing competition becomes grander than he anticipates even as its finalists' find that their lives will never be the same."
+    },
+    {
+      "id": "5",
+      "year": "2016",
+      "title": "Suicide Squad",
+      "rating": "6.2",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "director": "David Ayer",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse."
+    },
+    {
+      "id": "6",
+      "year": "2016",
+      "title": "The Great Wall",
+      "rating": "6.1",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "director": "Yimou Zhang",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "European mercenaries searching for black powder become embroiled in the defense of the Great Wall of China against a horde of monstrous creatures."
+    },
+    {
+      "id": "7",
+      "year": "2016",
+      "title": "La La Land",
+      "rating": "8.3",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Music"
+      ],
+      "director": "Damien Chazelle",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "A jazz pianist falls for an aspiring actress in Los Angeles."
+    },
+    {
+      "id": "8",
+      "year": "2016",
+      "title": "Mindhorn",
+      "rating": "6.4",
+      "genre": [
+        "Comedy"
+      ],
+      "director": "Sean Foley",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "A has-been actor best known for playing the title character in the 1980s detective series \"Mindhorn\" must work with the police when a serial killer says that he will only speak with Detective Mindhorn, whom he believes to be a real person."
+    },
+    {
+      "id": "9",
+      "year": "2016",
+      "title": "The Lost City of Z",
+      "rating": "7.1",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Biography"
+      ],
+      "director": "James Gray",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "A true-life drama, centering on British explorer Col. Percival Fawcett, who disappeared while searching for a mysterious city in the Amazon in the 1920s."
+    },
+    {
+      "id": "10",
+      "year": "2016",
+      "title": "Passengers",
+      "rating": "7",
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Romance"
+      ],
+      "director": "Morten Tyldum",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early."
+    },
+    {
+      "id": "11",
+      "year": "2016",
+      "title": "Fantastic Beasts and Where to Find Them",
+      "rating": "7.5",
+      "genre": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "director": "David Yates",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "The adventures of writer Newt Scamander in New York's secret community of witches and wizards seventy years before Harry Potter reads his book in school."
+    },
+    {
+      "id": "12",
+      "year": "2016",
+      "title": "Hidden Figures",
+      "rating": "7.8",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "director": "Theodore Melfi",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "The story of a team of female African-American mathematicians who served a vital role in NASA during the early years of the U.S. space program."
+    },
+    {
+      "id": "13",
+      "year": "2016",
+      "title": "Rogue One",
+      "rating": "7.9",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "director": "Gareth Edwards",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "The Rebel Alliance makes a risky move to steal the plans for the Death Star, setting up the epic saga to follow."
+    },
+    {
+      "id": "14",
+      "year": "2016",
+      "title": "Moana",
+      "rating": "7.7",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "director": "Ron Clements",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches an impetuous Chieftain's daughter's island, she answers the Ocean's call to seek out the Demigod to set things right."
+    },
+    {
+      "id": "15",
+      "year": "2016",
+      "title": "Colossal",
+      "rating": "6.4",
+      "genre": [
+        "Action",
+        "Comedy",
+        "Drama"
+      ],
+      "director": "Nacho Vigalondo",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "Gloria is an out-of-work party girl forced to leave her life in New York City, and move back home. When reports surface that a giant creature is destroying Seoul, she gradually comes to the realization that she is somehow connected to this phenomenon."
+    },
+    {
+      "id": "16",
+      "year": "2016",
+      "title": "The Secret Life of Pets",
+      "rating": "6.6",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "director": "Chris Renaud",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes."
+    },
+    {
+      "id": "17",
+      "year": "2016",
+      "title": "Hacksaw Ridge",
+      "rating": "8.2",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "director": "Mel Gibson",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people, and becomes the first man in American history to receive the Medal of Honor without firing a shot."
+    },
+    {
+      "id": "18",
+      "year": "2016",
+      "title": "Jason Bourne",
+      "rating": "6.7",
+      "genre": [
+        "Action",
+        "Thriller"
+      ],
+      "director": "Paul Greengrass",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "The CIA's most dangerous former operative is drawn out of hiding to uncover more explosive truths about his past."
+    },
+    {
+      "id": "19",
+      "year": "2016",
+      "title": "Lion",
+      "rating": "8.1",
+      "genre": [
+        "Biography",
+        "Drama"
+      ],
+      "director": "Garth Davis",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "A five-year-old Indian boy gets lost on the streets of Calcutta, thousands of kilometers from home. He survives many challenges before being adopted by a couple in Australia. 25 years later, he sets out to find his lost family."
+    },
+    {
+      "year": "2018",
+      "title": "teste",
+      "rating": "8.1",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "director": "James Gunn",
+      "languages": ["English", "Potuguese" ],
+      "subtitle": ["English", "Portuguese"],
+      "description": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
+      "id": "M-ptzvG"
+    }
+  ]
+}
