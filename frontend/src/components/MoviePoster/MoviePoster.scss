@@ -53,8 +53,11 @@
   font-size: 20px;
   margin: 0px;
   padding: 10px 0px
-
 }
+.movieposter__title:hover {
+  text-decoration: underline;
+}
+
 .movieposter__description {
   min-height: 150px;
 }

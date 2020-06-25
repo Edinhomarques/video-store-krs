@@ -1,8 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+import {FiTrash, FiHeart} from 'react-icons/fi';
+
 import './MoviePoster.scss';
 import movieImageDefault from '../../assets/movie.jpg';
-import {FiTrash, FiHeart} from 'react-icons/fi';
-export default function MoviePoster({ movie }){
+
+export default function MoviePoster({ movie,  removeMovie }){
+
   return (
     <div className="movieposter">
       <header className="movieposter__header">
@@ -10,7 +14,9 @@ export default function MoviePoster({ movie }){
       </header>
       <section className="movieposter__info">
         <div className="info__group">
-          <h5 className="movieposter__title">{movie.title}</h5>
+          <Link to={`/movie/${movie.id}`}>
+            <h5 className="movieposter__title">{movie.title}</h5>
+          </Link>
           <span>Year: {movie.year}</span>
           <span>/</span>
           <span>Genre: {movie.genre.reduce((acc, curr) => `${acc}, ${curr}`)}</span>
@@ -25,7 +31,7 @@ export default function MoviePoster({ movie }){
           <footer className="movieposter__footer">
               <FiHeart className="like" size={25} />
                 <span>Nota: {movie.rating}</span>
-              <FiTrash  className="trash" size={25} />
+              <FiTrash  className="trash" size={25} onClick={() => removeMovie(movie.id)}/>
           </footer>
         </div>
       </section>
