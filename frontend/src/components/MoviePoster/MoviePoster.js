@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import {FiTrash, FiHeart} from 'react-icons/fi';
 
 import './MoviePoster.scss';
@@ -19,10 +19,10 @@ export default function MoviePoster({ movie,  removeMovie }){
           </Link>
           <span>Year: {movie.year}</span>
           <span>/</span>
-          <span>Genre: {movie.genre.reduce((acc, curr) => `${acc}, ${curr}`)}</span>
+          <span>Genre: {Array.isArray(movie.genre) ? movie.genre.reduce((acc, curr) => `${acc}, ${curr}`) : movie.genre}</span>
           <hr/>
           <br/>
-          <span>Languages: {movie.languages.reduce((acc, curr) => `${acc}, ${curr}`)}</span><br />
+          <span>Languages: {Array.isArray(movie.languages) ? movie.languages.reduce((acc, curr) => `${acc}, ${curr}`) : movie.languages}</span><br />
           <span>Director: {movie.director}</span>
           <div className="movieposter__description">
             <p> <strong>Description:</strong></p>
