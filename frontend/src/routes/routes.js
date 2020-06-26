@@ -4,15 +4,18 @@ import {Switch, Route } from 'react-router-dom';
 
 import MovieList from '../containers/MovieList';
 import MovieDetail from '../containers/MovieDetail';
+import CreateMovie from '../containers/CreateMovie'
 import api from '../service/api'
 
 export default function Routes({ filterMovie }) {
   const [movies, setMovies] = useState([])
   const [deleteMovie, setDeleteMovie] = useState({})
+  const [newMovie, setNewMovie] = useState({})
+  console.log(newMovie)
   useEffect( () => {
     api.get('/movies')
       .then(response => setMovies([...response.data]))
-  }, [deleteMovie])
+  }, [deleteMovie, newMovie])
 
   async function removeMovie(id){
     try {
@@ -31,6 +34,9 @@ export default function Routes({ filterMovie }) {
       </Route>
       <Route path="/movie/:id">
         <MovieDetail />
+      </Route>
+      <Route path="/movie">
+        <CreateMovie setNewMovie={setNewMovie} />
       </Route>
     </Switch>
   )
