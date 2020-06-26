@@ -3,18 +3,18 @@
   max-width: 400px;
   min-height: 450px;
   border-radius: 10px;
-  background-color:#1e1b26;
+  background-color: #1e1b26;
   margin: 10px auto 0 auto;
-  box-shadow:5px 5px 115px -14px black;
-  color: #FFFFFF;
+  box-shadow: 5px 5px 115px -14px black;
+  color: #ffffff;
 }
 
 .movieposter__header {
-	margin: 0;
-	width: 100%;
+  margin: 0;
+  width: 100%;
   height: auto;
   max-height: 150px;
-	overflow: hidden;
+  overflow: hidden;
   position: relative;
 
   img {
@@ -22,8 +22,6 @@
     height: auto;
     border: 0;
     border-radius: 10px;
-
-
   }
 }
 .movieposter__info {
@@ -47,12 +45,12 @@
   }
 }
 
-.movieposter__title{
-  color: #FFFF;
+.movieposter__title {
+  color: #ffff;
   word-break: break-all;
   font-size: 20px;
   margin: 0px;
-  padding: 10px 0px
+  padding: 10px 0px;
 }
 .movieposter__title:hover {
   text-decoration: underline;

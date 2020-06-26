@@ -1,3 +1,3 @@
-import CreateMovie from './CreateMovie'
+import CreateMovie from './CreateMovie';
 
-export default CreateMovie
+export default CreateMovie;

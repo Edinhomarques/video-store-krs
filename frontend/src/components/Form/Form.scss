@@ -2,40 +2,38 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
-   label {
-     text-align: center;
-     align-self: center;
-     font-size: 9px;
-     font-weight: bold;
-     margin: 15px 5px;
-     width: 100%;
-     max-width: 300px;
- 
-   }
- 
-   input {
-     color: #111111;
-     border: none;
-     border-radius: 20px;
-     height: 25px;
-     text-align: center;
-     min-width: 300px;
-     margin-left: 20px;
-   
-   }
- 
-   button {
-     height: 50px;
-     width: 120px;
-     align-self: center;
-     border-radius: 10px;
-     border: 1px solid #FFFFFF;
-     margin-top: 20px;
-   }  
- 
-   button:hover {
-     background-color: #FFFF;
-     color:#08111E; 
-   }
- }
+
+  label {
+    text-align: center;
+    align-self: center;
+    font-size: 9px;
+    font-weight: bold;
+    margin: 15px 5px;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  input {
+    color: #111111;
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    text-align: center;
+    min-width: 300px;
+    margin-left: 20px;
+  }
+
+  button {
+    height: 50px;
+    width: 120px;
+    align-self: center;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    margin-top: 20px;
+  }
+
+  button:hover {
+    background-color: #ffff;
+    color: #08111e;
+  }
+}
